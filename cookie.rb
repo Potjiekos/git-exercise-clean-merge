@@ -6,4 +6,7 @@ class Cookie
     @sugar, @flour = sugar, flour
   end
 
+  def calorie_count
+    (@sugar * 20) + (@flour * 15)
+  end
 end
